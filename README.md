@@ -1,19 +1,5 @@
-# jd-manager_vue3
+# 1.api发送 = request封装 + TS参数接口
 
-## Project setup
-```
-npm install
-```
+# 2.组件 = TS参数接口
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 3.通过与组件中ref同名的方式获取到了this.$refs.formRef
