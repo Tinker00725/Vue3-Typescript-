@@ -28,8 +28,9 @@
 import { useUser } from "@/store/user";
 import { onMounted, reactive, ref } from 'vue'
 import type { FormRules,FormInstance } from 'element-plus'
+import { useRouter } from "vue-router";
 const store = useUser();
-
+const router = useRouter();
 const labelPosition = ref('right')
 
 const formLabelAlign = reactive({
@@ -44,8 +45,9 @@ onMounted(()=>{
 const onSubmit = (form1:FormInstance) => {
   form1.validate(vaild=>{
     if(vaild){
-        console.log('验证成功')
-    }else{
+        // console.log('验证成功')
+      router.push('/upload')
+      }else{
         console.log('验证失败')
     }
   })

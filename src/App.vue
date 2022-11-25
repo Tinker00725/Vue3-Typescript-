@@ -1,5 +1,4 @@
 <template>
-  <Login></Login>
   <router-view/>
 </template>
 
