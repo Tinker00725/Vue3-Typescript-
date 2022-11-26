@@ -5,7 +5,7 @@ import {createPinia} from 'pinia'
 // 引入elementPlus
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-
+import './index.css'
 
 // 为了使用proxy.$abc,针对vue2迁移vue3
 //实际上就是让this.xxx能够使用

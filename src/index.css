@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .headText{
+        @apply
+        text-sm text-gray-600 leading-8
+    };
+    .lis{
+        @apply
+        text-base px-5 py-2 box-border w-32 text-center
+    }    
+}
+@tailwind utilities;
